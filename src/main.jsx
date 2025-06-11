@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import './index.css';
 
-const basename = process.env.NODE_ENV === 'production' ? '/Desafio03Docker' : '/';
+const basename =  '/';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
