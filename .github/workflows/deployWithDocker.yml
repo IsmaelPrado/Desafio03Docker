@@ -1,5 +1,8 @@
 name: Build and Deploy to GitHub Pages
 
+# Permission
+permissions:
+  contents: write  # Permite a la acción de GitHub Pages escribir en el repositorio
 on:
   push:
     branches:
